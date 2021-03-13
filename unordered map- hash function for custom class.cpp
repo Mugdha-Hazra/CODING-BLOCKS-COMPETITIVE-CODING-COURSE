@@ -82,3 +82,13 @@ int main()
                cout<<"Marks of 4th student: "<<student_map[s3]<<endl;
                return 0;
 }
+
+/*
+ output:
+Name: Raju RollNo.: 215 Marks: 80
+Name: Madhu RollNo.: 038 Marks: 90
+Name: Mugdha RollNo.: 025 Marks: 70
+Name: Mugdha RollNo.: 106 Marks: 100
+Marks of 4th student: 70
+
+*/
