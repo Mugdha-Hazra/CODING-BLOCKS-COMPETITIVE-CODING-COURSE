@@ -32,17 +32,25 @@ is a generalization of the way words are alphabetically ordered based on the alp
 #include<bits/stdc++.h>
 using namespace std;
 
+/*
+let say we have given 2 strings a,b;
+we have to sheck for 3 conditions 
+ 1.if a is prefix string of b then b becomes first.
+ 2.if b is prefix string of a then a becomes first.
+ 3.if above 2 conditions dont satisfy then sort them in lexographical order.
+*/
 
+//comperator function for sorting
 bool comp(string a, string b)
 {
+               //a will only be the substring of b when a is smaller or equal to b and a is the prefix substring of b .
 	if(a.size()<=b.size()&&b.substr(0,a.size())==a)return false;
 	else if(b.size()<=a.size()&&a.substr(0,b.size())==b)return true;
 	else return a<b;
 }
-
-
 int main()
 {
+               //vector of string
 	vector<string>v;
 	string s;
 	int n,i;
@@ -52,7 +60,11 @@ int main()
 		cin>>s;
 		v.push_back(s);
 	}
+	
+	//sorting using comparator function.
 	sort(v.begin(),v.end(),comp);
+	
+	//printing the output
 	for(auto x:v)
 	cout<<x<<endl;
 	return 0;
