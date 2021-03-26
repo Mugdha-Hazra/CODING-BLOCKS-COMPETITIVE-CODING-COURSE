@@ -1,5 +1,7 @@
-//finding all the subset of an array using backtracking technique
-
+/*
+FINDING ALL THE SUBSET OF THE ARRAY/VECTOR BY USING BACKTRACKING
+You will be given an array , you have to find all the possible subsets of all the given array.
+*/
 #include <iostream>
 #include<bits/stdc++.h>
 #include<vector>
@@ -50,11 +52,27 @@ int main()
                return 0;
 }
 /*
-OUTPUT:
-enter the size of the array: 5
+Time Complexity => O(2^n)
+
+OUTPUT: #1
+Enter the size of the array: 3
+Enter the elements of the array: 1 2 3 
+
+The subset are:
+
+1
+1 2
+1 2 3
+1 3
+2 
+2 3 
+3
+
+OUTPUT: #2
+Enter the size of the array: 5
 Enter the elements of the array: 1 2 3 4 5
 
- the subset are:
+The subset are:
 
 1 
 1 2 
