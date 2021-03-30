@@ -87,3 +87,35 @@ int main()
            
 	return 0;
 }
+
+
+
+/*
+OUTPUT
+=============================================================================================================================
+enter any number: 19
+enter the pos :2
+enter the value to be updated :1
+enter the range : (l=lower bound u=upperbound)
+l:2
+u:4
+==============================================================================================================================
+left shift by 1 : 38
+
+right shift by 1 : 9
+
+decimal to binary19->10011
+
+odd(1)/even(0) : 1
+
+getting ith bit from the right : 0 implementation :10011->0
+
+setting the set bit at a given pos :23 implementation :10011->10111
+
+clear ith bit from a number :19 implementation :10011->10011
+
+update a particular bit :23 implementation :10011->10111
+
+clear last u bits :16 implementation :10011->10000
+===============================================================================================================================
+*/
