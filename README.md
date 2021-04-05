@@ -1,1 +1,1 @@
-# competitive-coding-cb
+# CODING-BLOCKS-COMPETITIVE-CODING-COURSE
