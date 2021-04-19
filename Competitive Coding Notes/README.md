@@ -1,15 +1,12 @@
 ## CONTENTS
 ================
 
+`(Notes content till now 🦖)`
 
-Welcome!
-2 of 2 contents completed
-Coding Blocks Online Guidelines
-
-Course Updates (7th June 2020)
+**Welcome!!**
 
 STL Quickstart
-20 of 20 contents completed
+
 STL Containers Introduction
 
 Find Function
