@@ -5,13 +5,14 @@
                The basic Approach is to use a deque (b) to save all currently "maximum" elements.
                
                1. So for each i,we first pop up the elements that are no larger than (vector) v[i].
-               2. From b until we find one that is larger than v[i] or the b is empty since those elements will be covered by v[i] 
-                  and can not be a maximum of any k-element window. 
+               2. From b until we find one that is larger than v[i] or the b is empty since those elements
+                  will be covered by v[i] and can not be a maximum of any k-element window. 
                3. Then we put v[i] in the b.
                4. If i>=k-1, we need to ouput the maximum for window [i-k+1, i], 
                   which is the front element of b.
                5. We will check if the front element is v[i-k+1],
-               6. If so,we have to pop it up since it will be out of the window [i-k+2, i+1] in the next iteration.
+               6. If so, we have to pop it up since it will be out of the
+                  window [i-k+2, i+1] in the next iteration.
 */
 
 #include <bits/stdc++.h>
