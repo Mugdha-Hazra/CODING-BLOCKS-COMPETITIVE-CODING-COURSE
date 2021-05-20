@@ -1,3 +1,11 @@
+/*
+finding the smallest factor that divides the number, 
+saving it as a factor and updating the number by dividing it by the factor. 
+This process is done recursively till the number becomes 1 after division, which means no other factors are possible.
+
+The calculation is done using sieve of eratosthenes which reduces the time complexity in finding the smallest prime factor.
+time: O(log n)
+*/
 #include <iostream>
 using namespace std;
 int primes[100001];
